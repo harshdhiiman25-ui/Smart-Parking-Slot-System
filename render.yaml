@@ -1,0 +1,13 @@
+services:
+  # Option 1: Render Web Service (Node.js with Express serving SPA)
+  - type: web
+    name: smart-parking-system
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production

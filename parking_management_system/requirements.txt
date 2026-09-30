@@ -1,0 +1,14 @@
+# Python Dependencies for Smart Parking Slot Management System
+# Suitable for Python 3.8, 3.9, 3.10, 3.11, 3.12+
+
+# Core GUI & Database libraries (built into Python standard library):
+# - tkinter (GUI toolkit - included in standard Python desktop distributions)
+# - sqlite3 (Database engine - built-in)
+# - hashlib & secrets (Cryptography & password hashing - built-in)
+# - csv & shutil (Data export and backups - built-in)
+
+# Data visualization and chart generation
+matplotlib>=3.7.0
+
+# Optional PDF generation and printing enhancements
+reportlab>=3.6.0

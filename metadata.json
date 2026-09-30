@@ -1,0 +1,6 @@
+{
+  "name": "Smart Parking Slot Management System",
+  "description": "Comprehensive smart parking slot management system featuring interactive slot maps, automated allocation, vehicle ticketing, exit billing, EV charging, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
